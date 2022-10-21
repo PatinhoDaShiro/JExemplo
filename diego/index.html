@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,6 +16,9 @@
     <p id="result">Quadrado: </p>
     </div>
     </div>
+    
+
+
     <div>
         <h3>Maior numero entre 5</h3>
         <input type="text" id="cinconumero">
@@ -29,6 +33,33 @@
             <h3 id="resultado">Maior numero: </h3>
         </div>
     </div>
+        
+
+
+        <div>
+        <h3>Idades</h3>
+        <label for="idade">Idade:</label>
+        <input name="idade"type="text" id="idadeInput">
+        <button onclick="idades()">OK</button>
+        <button type="reset" onclick="reiniciar()">Reiniciar</button>
+        <div id="pessoas">
+        <P id="maiores"></P>
+        <p id="menores"></p>
+        </div>
+        </div>
+   
+        <div>
+            <h3>Nomes invertidos</h3>
+            <input type="text" placeholder="Digite o nome da pessoa" id="nome">
+            <button onclick="addList()">Adicionar</button>
+            <button onclick="mLista()">Mostrar lista</button>
+            <div>
+                <p id="aviso"></p>
+                <div id="lista">
+
+                </div>
+            </div>
+        </div>
   
     <script src="./script.js"></script>
 </body>
