@@ -68,7 +68,7 @@ aviso.innerHTML="Sua lista invertida"
 
 for(i=nomes.length-1;i>=+0;i--){
 
-   lista.append(nomes[i]+" ")
+   lista.append(nomes[i]+", ")
 }
 }
 
